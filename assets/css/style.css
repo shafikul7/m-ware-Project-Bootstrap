@@ -1,0 +1,346 @@
+/*!
+ * Project_Name: Mediusware
+ * Author: Md.Shafikul islam
+ * Url: https://www.github.com/shafikul7
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+
+body {
+
+    font-family: CircularStd !important;
+    font-weight: 400;
+
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+:root {
+    --custom-primary: #0060AF;
+    --custom-secondary: #00A88E;
+    --custom-dark: #333333;
+
+
+}
+
+.top-header {
+    background-color: #002B4F;
+
+}
+
+.container{
+    max-width: 1696px;
+}
+
+.header-text {
+    align-items: center;
+    /* gap: 50px; */
+    font-size: 14px;
+
+}
+
+.text1 {
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+
+}
+
+.contact-info {
+    font-size: 10px !important;
+}
+
+.form-section {
+    /* background-color: aliceblue; */
+}
+
+.banner-get {
+    color: var(--custom-dark);
+    font-weight: 700;
+}
+
+.banner-us {
+    color: var(--custom-secondary);
+    font-weight: 700;
+}
+
+.banner-para {
+    color: var(--custom-dark);
+    font-weight: 450;
+    line-height: 24px;
+}
+
+#banner-section {
+
+    background-color: #ECF5F8;
+    /* padding: 40px 30px;
+    margin-bottom: 10px; */
+}
+
+.nav-link {
+    color: var(--custom-dark);
+    font-family: circularStd !important;
+    font-size: 20px;
+    /* font-weight: 500; */
+    line-height: 28px;
+}
+
+.btn-custom {
+    border: none;
+    border-radius: 12px;
+    background-color: var(--custom-primary);
+    color: white;
+    gap: 2;
+    /* padding: 18px, 32px, 18px, 32px !important; */
+}
+
+.btn {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    border: 1px solid #D2D6DB;
+    padding: 12px 24px;
+}
+
+.from-headingTest {
+    font-family: Circular Std;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    padding: 10px 0px;
+    /* text-align: center; */
+
+}
+
+.from-headingTest span {
+    color: var(--custom-secondary);
+}
+
+.footer {
+    background-image: url(/assets/images/footer/Footer.png);
+    background-repeat: no-repeat;
+    /* height: 500px; */
+    /* background-position: center; */
+    background-size: cover;
+    color: #EAECF0;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 24px;
+
+}
+
+.contact-section {
+    background-color: #f9fafb;
+    border-radius: 12px;
+    padding: 24px;
+    color: #344054;
+    line-height: 26px;
+    /* background-color: red; */
+}
+
+.contact-section li {
+    font-size: 16px;
+}
+
+.contact-color {
+    color: #333333;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: CircularStd;
+    line-height: 44px;
+}
+
+.contact-color>span {
+    color: var(--custom-secondary);
+}
+
+.company-btn {
+    color: #0060AF;
+    font-size: 16px;
+    font-weight: 700;
+    /* line-height: 24; */
+    font-family: CircularStd;
+    background-color: #E6EFF7;
+    border-radius: 12px;
+    border: 1px;
+    padding: 12px 24px;
+    gap: 28px;
+}
+
+.t1 {
+    color: #E6EFF7;
+    background-color: var(--custom-primary);
+    border-radius: 12px;
+    border: 1px;
+    padding: 12px 24px;
+    /* gap: 28px; */
+    font-size: 16px;
+    font-weight: 700;
+    font-family: CircularStd;
+}
+
+.form-row label {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 24px;
+    font-family: CircularStd;
+    margin: 5px;
+}
+
+.form-row label span {
+    color: #98A2B3;
+
+}
+
+.form-control {
+    font-family: CircularStd !important;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 24px;
+
+}
+
+.footer-head {
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-family: Circular Std;
+    line-height: 26px;
+}
+
+.r3 li {
+    color: #EAECF0;
+    font-weight: 450;
+    font-family: Circular Std;
+    line-height: 24px;
+    font-size: 16px;
+    /* justify-content:space-between; */
+
+}
+
+.input-form input {
+    Padding: 10px 16px;
+    font-weight: 450;
+    font-size: 16px;
+}
+
+.input-group {
+    border: 1px solid #E6EFF7;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.input-group input {
+    outline: 0;
+    border: none;
+    /* padding: 8px 8px 8px 24px; */
+    border-radius: 8px;
+    /* outline-offset: 1; */
+
+}
+
+.input-group .file-btn {
+    color: #E6EFF7;
+    font-size: 14px;
+    font-weight: 700;
+    /* line-height: 20; */
+    font-family: CircularStd;
+    background-color: var(--custom-secondary);
+    border-radius: 14px !important;
+    border: none;
+    padding: 6px 16px;
+    gap: 10px;
+    margin-left: 2px;
+    /* border-left: #00A88E; */
+}
+
+iframe {
+    /* width: 100%; */
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.footer-padding {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.nav-link:hover {
+    color: var(--custom-primary);
+}
+
+@media (max-width: 991px) {
+    .footer {
+        background-image: url(/assets/images/footer/Final\ Mobile\ Footer.png);
+        background-repeat: no-repeat;
+        /* height: 500px; */
+        /* background-position: center; */
+        background-size: cover;
+        color: #EAECF0;
+        font-size: 16px;
+        font-weight: 450;
+        line-height: 24px;
+
+    }
+
+    .footer-p {
+        padding-top: 10px;
+    }
+
+    .from-headingTest {
+        align-items: center;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .footer {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-p {
+        padding-top: 70px;
+    }
+    .from-headingTest {
+       font-size: 48px;
+       font-weight: 700;
+       line-height: 60px;
+    }
+    /* .t2 {
+        color: #E6EFF7;
+        background-color: var(--custom-primary);
+        border-radius: 12px;
+        border: none;
+        /* padding: 5px 10px; */
+    /* gap: 28px; */
+    /* line-height: 36px; */
+    /* font-size: 22px;
+        font-weight: 700;
+        font-family: CircularStd; */
+    /* width: 244px; */
+    /* height: 36px; */
+
+
+}
