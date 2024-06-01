@@ -127,7 +127,7 @@ a {
 }
 
 .footer {
-  background-image: url(/assets/footer.png) !important;
+  background-image: url(/assets/footer.jpg) !important;
   background-repeat: no-repeat;
   background-size: cover;
   color: #eaecf0;
@@ -273,7 +273,7 @@ iframe {
 
 @media (max-width: 991px) {
   .footer {
-    background-image: url(/assets/footer.png) !important;
+    background-image: url(/assets/footerm.jpg) !important;
     background-repeat: no-repeat;
     background-size: cover;
     color: #eaecf0;
